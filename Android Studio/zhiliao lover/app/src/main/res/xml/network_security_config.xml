@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
+
+<!--    android9.0 (28）以后，系统默认不在支持http请求，当我们在发送http请求时会出现以下提示，并且请求-android9.0 (28）以后，系统默认不在支持http请求，当我们在发送http请求时会出现以下提示，并且请求网络失败-->
+<!--记得还要在AndroidManifest.xml里面进行引用-->

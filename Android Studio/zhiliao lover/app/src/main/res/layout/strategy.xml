@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#D8D8D8">
+
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_40" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="约会攻略"
+            android:textColor="#000000"
+            android:textSize="28sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/default_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/radius_color_d8d8d8"
+            android:text="默认排序"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/hot_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/default_sort"
+            android:background="@drawable/radius_color_d8d8d8"
+            android:text="热门动态"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/hot_discuss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/hot_dynamic"
+            android:background="@drawable/radius_color_d8d8d8"
+            android:text="评论多"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/new_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/hot_discuss"
+            android:background="@drawable/radius_color_d8d8d8"
+            android:text="新发布"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/strategy_re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
