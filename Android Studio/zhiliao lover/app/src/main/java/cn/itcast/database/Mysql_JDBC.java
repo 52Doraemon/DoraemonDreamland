@@ -22,9 +22,9 @@ public class Mysql_JDBC extends Thread {
     // 获取数据库连接
     protected static Connection myConnection() throws Exception {
         Connection conn;
-        String database_user = "root";  //连接数据库的用户名
-        String database_password = "123456";  //连接数据库的密码
-        String url = "jdbc:mysql://112.74.180.95:3306/q";// 数据库连接串
+        String database_user = "XXX";  //连接数据库的用户名
+        String database_password = "XXX";  //连接数据库的密码
+        String url = "jdbc:mysql://localhost:3306/q";// 数据库连接串
         String driverClass = "com.mysql.jdbc.Driver" ;
         ResultSet resultSet = null;
         Statement statement = null;
