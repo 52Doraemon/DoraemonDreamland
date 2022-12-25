@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/addrecord_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/style_addrecord_toolbar">
+
+        <ImageView
+            android:id="@+id/addrecord_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrowback" />
+
+        <TextView
+            android:id="@+id/record_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="记一笔"
+            android:textColor="@color/theme_color"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/navi_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/ic_check" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:id="@+id/addrecord_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/addrecord_select"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/style_addrecord_editor"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/add_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fafafa"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/addrecord_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addrecord_toolbar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/addrecord_expenditure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/addrecord_select_background1"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:text="支出"
+            android:textColor="@color/addrecord_select_text1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/addrecord_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/addrecord_expenditure"
+            android:background="@color/addrecord_select_background1"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:text="入账"
+            android:textColor="@color/addrecord_select_text1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/addrecord_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/addrecord_income"
+            android:background="@color/addrecord_select_background1"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:text="不计入收支"
+            android:textColor="@color/addrecord_select_text1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/addrecord_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/addrecord_select_background1"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:text="2022年6月10日"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:drawableRightCompat="@drawable/ic_arrowdown_add_date" />
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/addrecord_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addrecord_input"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:columnCount="6"
+        android:rowCount="2">
+
+        <TextView
+            android:id="@+id/food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="餐饮"
+            android:textColor="@color/addrecord_select_text1"
+            app:drawableTopCompat="@drawable/ic_food1" />
+
+        <TextView
+            android:id="@+id/transit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="交通"
+            android:textColor="@color/addrecord_select_text1"
+            app:drawableTopCompat="@drawable/ic_transit1" />
+
+        <TextView
+            android:id="@+id/clothing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="服饰"
+            android:textColor="@color/addrecord_select_text1"
+            app:drawableTopCompat="@drawable/ic_clothing1" />
+
+        <TextView
+            android:id="@+id/shoppingbag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="购物"
+            android:textColor="@color/addrecord_select_text1"
+            app:drawableTopCompat="@drawable/ic_shoppingbag1" />
+
+        <TextView
+            android:id="@+id/medical_services"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="医疗"
+            android:textColor="@color/addrecord_select_text1"
+            app:drawableTopCompat="@drawable/ic_medical_services1" />
+
+        <TextView
+            android:id="@+id/school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="教育"
+            android:textColor="@color/addrecord_select_text1"
+            app:drawableTopCompat="@drawable/ic_school1" />
+
+        <TextView
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="娱乐"
+            android:textColor="@color/addrecord_select_text1"
+            app:drawableTopCompat="@drawable/ic_play1" />
+
+        <TextView
+            android:id="@+id/sports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="运动"
+            android:textColor="@color/addrecord_select_text1"
+            app:drawableTopCompat="@drawable/ic_sports1" />
+
+        <TextView
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="生活"
+            android:textColor="@color/addrecord_select_text1"
+            app:drawableTopCompat="@drawable/ic_home1" />
+
+        <TextView
+            android:id="@+id/trips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="旅行"
+            android:textColor="@color/addrecord_select_text1"
+            app:drawableTopCompat="@drawable/ic_trips1" />
+
+        <TextView
+            android:id="@+id/pets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="宠物"
+            android:textColor="@color/addrecord_select_text1"
+            app:drawableTopCompat="@drawable/ic_pets1" />
+
+        <TextView
+            android:id="@+id/service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="其他"
+            android:textColor="@color/addrecord_select_text1"
+            app:drawableTopCompat="@drawable/ic_service1" />
+
+    </GridLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addrecord_type"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/type_cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/addrecord_select_background1"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:text="现金"
+            android:textColor="@color/addrecord_select_text1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type_wc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/type_cash"
+            android:background="@color/addrecord_select_background1"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:text="微信"
+            android:textColor="@color/addrecord_select_text1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/type_wc"
+            android:background="@color/addrecord_select_background1"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:text="支付宝"
+            android:textColor="@color/addrecord_select_text1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/type_pay"
+            android:background="@color/addrecord_select_background1"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:text="其他"
+            android:textColor="@color/addrecord_select_text1"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

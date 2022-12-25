@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="20dp">
+
+    <View
+        android:id="@+id/re_head"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/style_main_rw_background_top" />
+
+    <RelativeLayout
+        android:id="@+id/re_RL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re_head"
+        android:background="@color/main_rw_background"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/re_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6/11 周六"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/re_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="45dp"
+            android:layout_toStartOf="@+id/re_out"
+            android:text="收 0.00"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/re_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="支 0.00"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/re_re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re_RL" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/re_re"
+        android:background="@drawable/style_main_rw_background_buttom" />
+
+</RelativeLayout>
