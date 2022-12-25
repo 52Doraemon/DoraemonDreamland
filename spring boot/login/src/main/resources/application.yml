@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/linuxlogin?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&serverTimezone=GMT%2B8
+    username: XXX
+    password: XXX
+
+    thymeleaf:
+      prefix:
+      classpath: /templates  # 访问template下的html文件需要配置模板，映射
+      #classpath: /static
+      cache: false # 开发时关闭缓存,不然没法看到实时页面
+
+
+mvc:
+  static-path-pattern: /static/**  #配置静态路径
+
+mybatis:
+  type-aliases-package: day2.demo.test.bean
+  mapper-locations: classpath:day2/demo/test/mapper/*.xml
