@@ -6,10 +6,10 @@
 
 struct
 {
-	unsigned int autfd: 1; //:后面的数字用来限定成员变量占用的位数。
-	unsigned int bldfc: 1;
-	unsigned int undin: 1;
-	unsigned int itals: 1;
+	int autfd:1; //:后面的数字用来限定成员变量占用的位数。
+	int bldfc:1;
+	int undin:1;
+	int itals:1;
 } prnt;
 
 //根据该声明，prnt包含4个1位的字段。现在，可以通过普通的结构成员运算符(.)单独给这些字段赋值：
@@ -21,7 +21,7 @@ prnt.undin = 1;
 
 //位域的宽度不能超过它所依附的数据类型的长度。通俗地讲，成员变量都是有类型的，这个类型限制了成员变量的最大长度，:后面的数字不能超过这个长度。
 
-//如上述结构中autfd、bldfc、undin、itals后面的数字不能超过unsigned int的位数，即在32bit环境中就是不能超过32。
+//如上述结构中autfd、bldfc、undin、itals后面的数字不能超过int的位数，即在32bit环境中就是不能超过32。
 
 //位域的取值范围非常有限，数据稍微大些就会发生溢出，请看下面的例子：
 
