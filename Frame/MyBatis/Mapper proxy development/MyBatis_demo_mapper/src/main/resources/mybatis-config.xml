@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <!--数据库连接信息-->
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://112.74.180.95:3306/mybatis?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=UTC&amp;serverTimezone=GMT%2B8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="q1w2e3r4"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--
+        加载sql映射文件
+        resource：相对该类的路径
+        -->
+        <!--<mapper resource="com/cym/mapper/UserMapper.xml"/>-->
+        
+        <!--
+        Mapper代理方式
+        <package name="com.cym.mapper"/>取代<mapper resource="com/cym/mapper/UserMapper.xml"/>
+        如果Mapper接口名称和SQL映射文件名称相同，并在同一目录下，则可以使用包扫描的方式简化SQL映射文件的加载
+        将com.cym.mapper包下的所有SQL映射文件全部加载
+        -->
+        <package name="com.cym.mapper"/>
+    </mappers>
+</configuration>

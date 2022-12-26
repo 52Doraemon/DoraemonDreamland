@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--SQL的映射文件命名一般是操作哪个类就 '类名+Mapper.xml'-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace：名称空间，用来区别不同模块相同的sql语句唯一表示
+    id：sql语句的唯一标识，使用sql语句：namespace.id
+    resultType：对应的返回结果的类型，返回数据要包装成的类型
+-->
+<!--//2.设置SQL映射文件的namespace属性为Mapper接口全限定名"com.cym.mapper.UserMapper"-->
+<mapper namespace="com.cym.mapper.UserMapper">
+    <select id="selectAll" resultType="com.cym.pojo.User">
+        select * from tb_user;
+    </select>
+</mapper>
