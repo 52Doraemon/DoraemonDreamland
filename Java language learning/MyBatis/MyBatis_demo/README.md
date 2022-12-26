@@ -1,3 +1,9 @@
+该demo sql语句id地方
+List<User> users = sqlSession.selectList("test.selectAll");
+仍然存在硬编码问题，需要用mapper代理继续优化
+
+该demo步骤
+
 查询user表中所有的数据
 
 1.创建user表，添加数据

@@ -25,7 +25,7 @@ public class MyBatisDemo {
         SqlSession sqlSession = sqlSessionFactory.openSession();
 
         //3.执行sql
-        List<User> users = sqlSession.selectList("test.selectAll");//传入对应sql的唯一标识,使用sql语句：namespace.id
+        List<User> users = sqlSession.selectList("test.selectAll");//传入对应sql的唯一标识,使用sql语句：namespace.id，硬编码问题，mapper代理解决
 
         System.out.println(users);
 
