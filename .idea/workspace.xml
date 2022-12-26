@@ -4,114 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2c3dd31-734b-4025-b396-667c552690e5" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/libs/mysql-connector-java-5.1.49.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/androidTest/java/cn/itcast/database/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Dong_tai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Dong_tai_detail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Fabu_Edit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Gong_lue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Gong_lue_detail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Main_fragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Mysql_JDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Mysql_regist_account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Mysql_regist_found.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Mysql_verify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Person_edit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Person_fragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Publish_works.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Regist_account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/java/cn/itcast/database/Regist_found.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/border.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/circle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_add_circle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_arrow_back_40.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_chat_bubble_outline_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_check_44.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_create_new_folder_40.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_delete_40.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_edit_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_exit_to_app_44.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_message_select1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_message_select2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_mic_none_40.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_person_select1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_person_select2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_baseline_photo_camera_40.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_thumb_up_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/ic_thumb_up_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/img6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/person_edit_imgstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/radius_color_4b96d6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/radius_color_5b9bd5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/radius_color_aaaaaa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/radius_color_d8d8d8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/drawable/thumb_up_style.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/dynamic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/dynamic_detail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/dynamic_detail_re.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/dynamic_re.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/edit_personal_data.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/login_xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/main_fragment_dynamic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/person.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/publish_works.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/regist_account.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/regist_found_password.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/strategy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/layout/strategy_detail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/app/src/test/java/cn/itcast/database/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Android Studio/zhiliao lover/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a2c3dd31-734b-4025-b396-667c552690e5" name="变更" comment="变更" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,13 +21,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Android Studio" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\cheny\Documents\GitHub\52Doraemon\Android Studio" />
@@ -156,6 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671986825554</updated>
       <workItem from="1671986829213" duration="426000" />
+      <workItem from="1672027980423" duration="7000" />
     </task>
     <servers />
   </component>
